@@ -29,6 +29,8 @@ source $HOME/.bash_profile
 bonus-blockd status 2>&1 | jq .SyncInfo
 ```
 **Jika sudah FALSE boleh lanjut step berikutnya. Kalo masih TRUE tunggu sampe status FALSE**
+## Claim Faucet : https://faucet.bonusblock.io/
+atau bisa ke grup telegramnya minta ama member disana : https://t.me/bonusblock
 ## Cek saldo wallet
 ```
 bonus-blockd query bank balances $BONUS_WALLET_ADDRESS
